@@ -15,9 +15,9 @@
     "value": "purple"
   },
   "titleStyle": {
-    "type": "text",
+    "type": "googleFont",
     "label": "Main text font family",
-    "value": "fantasy"
+    "value": "Oswald"
   },
   "textSize": {
     "type": "number",
@@ -27,7 +27,7 @@
   "textStyle": {
     "type": "colorpicker",
     "label": "Color used for the secondary text",
-    "value": 35
+    "value": "white"
   },
   "showTime": {
     "type": "number",
@@ -50,47 +50,62 @@
   },
   "ignoredRedeemGroup1": {
     "type": "hidden",
+    "label": "Ignored Rewards",
+    "group": "Ignored Rewards"
+  },
+  "ignoredRedeemGroup2": {
+    "type": "hidden",
     "label": "***************************",
     "group": "Ignored Rewards"
   },
   "ignoredRedeem1": {
     "type": "text",
-    "label": "Ignored Redeem 1 - Id"
+    "label": "Ignored Redeem 1 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem2": {
     "type": "text",
-    "label": "Ignored Redeem 2 - Id"
+    "label": "Ignored Redeem 2 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem3": {
     "type": "text",
-    "label": "Ignored Redeem 3 - Id"
+    "label": "Ignored Redeem 3 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem4": {
     "type": "text",
-    "label": "Ignored Redeem 4 - Id"
+    "label": "Ignored Redeem 4 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem5": {
     "type": "text",
-    "label": "Ignored Redeem 5 - Id"
+    "label": "Ignored Redeem 5 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem6": {
     "type": "text",
-    "label": "Ignored Redeem 6 - Id"
+    "label": "Ignored Redeem 6 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem7": {
     "type": "text",
-    "label": "Ignored Redeem 7 - Id"
+    "label": "Ignored Redeem 7 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem8": {
     "type": "text",
-    "label": "Ignored Redeem 8 - Id"
+    "label": "Ignored Redeem 8 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem9": {
     "type": "text",
-    "label": "Ignored Redeem 9 - Id"
+    "label": "Ignored Redeem 9 - Id",
+    "group": "Ignored Rewards"
   },
   "ignoredRedeem10": {
     "type": "text",
-    "label": "Ignored Redeem 10 - Id"
+    "label": "Ignored Redeem 10 - Id",
+    "group": "Ignored Rewards"
   }
 }

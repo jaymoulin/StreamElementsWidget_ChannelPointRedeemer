@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family={{titleStyle}}');
+
 #points-notification-image {
     display: block;
     margin-left: auto;
@@ -26,4 +28,9 @@
 }
 .hide {
     opacity: 0;
+}
+
+#points-notification-title {
+    font-family: "{{titleStyle}}", sans-serif;
+    font-weight: bold;
 }

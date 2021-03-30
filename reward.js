@@ -11,7 +11,7 @@ class Reward {
         this.showPrices = '';
         this.audioPrices = '';
         this.ttsPrices = '';
-        this.notifications = '';
+        this.notifications = [];
 
         this.init()
             .initDisplay()
@@ -24,7 +24,7 @@ class Reward {
     
     init() {
         this.message.setAttribute("style", `font-size: ${this.settings.textSize};${this.settings.textStyle}`);
-        this.title.setAttribute("style", `color: ${this.settings.titleColor};font-size: ${this.settings.titleSize};${this.settings.titleStyle}`);
+        this.title.setAttribute("style", `color: ${this.settings.titleColor};font-size: ${this.settings.titleSize};`);
         this.image.setAttribute("style", `height: ${this.settings.imageHeight};${this.settings.imageStyle}`);
         
         if (this.settings.showPrices) {

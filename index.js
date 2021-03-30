@@ -8,9 +8,8 @@ let textSize = 35,
     imageStyle = '',
     titleColor = 'purple',
     titleSize = 50,
-    titleStyle = 'font-family = fantasy;',
     title = '{user} claque {price} lolicoins pour {reward}', //{user} for user / {price} for price / {reward} for reward
-    audioUrl = 'https = //www.myinstants.com/media/sounds/asus-yamete-kudasai-mp3cut_HkI6gb8.mp3',
+    audioUrl = 'https://www.myinstants.com/media/sounds/asus-yamete-kudasai-mp3cut_HkI6gb8.mp3',
     tts = true,
     ttsLang = 'fr',
     showPrices = false, //comma separated values or false
@@ -32,7 +31,7 @@ let textSize = 35,
     ignoredRedeem9 = '',
     ignoredRedeem10 = '';
 
-const SETTINGS = {
+let SETTINGS = {
     textSize: textSize + 'px',
     textStyle: textStyle,
     showTime: showTime,
@@ -40,7 +39,6 @@ const SETTINGS = {
     imageStyle: imageStyle,
     titleColor: titleColor,
     titleSize: titleSize + 'px',
-    titleStyle: titleStyle,
     title: title,
     audioUrl: audioUrl,
     tts: tts,
