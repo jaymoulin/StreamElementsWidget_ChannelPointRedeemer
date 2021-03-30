@@ -104,6 +104,8 @@ class Reward {
     }
 
     canHandle(message) {
+        console.log(this.settings.ignored);
+        console.log(message['data']['redemption']['reward']['id']);
         return (
             message &&
             message.type &&
@@ -114,7 +116,7 @@ class Reward {
             message['data']['redemption']['user']['display_name'] &&
             message['data']['redemption']['reward'] &&
             message['data']['redemption']['reward']['id'] &&
-            this.settings.ignored.indexOf(message['data']['redemption']['reward']['id']) === -1 // do not handle a specific reward
+            !this.settings.ignored.includes(message['data']['redemption']['reward']['id']) // do not handle a specific reward
         )
     }
 

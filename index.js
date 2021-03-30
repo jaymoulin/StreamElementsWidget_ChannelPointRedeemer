@@ -1,15 +1,15 @@
 const Reward = require('./reward')
 const sleep = require('./tools').sleep
 
-let textSize = 35,
-    textStyle = 'color:white;',
-    showTime = 7500,
-    imageHeight = 250,
+let textSize = '{textSize}',
+    textStyle = '{textStyle}',
+    showTime = '{showTime}',
+    imageHeight = '{imageHeight}',
     imageStyle = '',
-    titleColor = 'purple',
-    titleSize = 50,
-    title = '{user} claque {price} lolicoins pour {reward}', //{user} for user / {price} for price / {reward} for reward
-    audioUrl = 'https://www.myinstants.com/media/sounds/asus-yamete-kudasai-mp3cut_HkI6gb8.mp3',
+    titleColor = '{titleColor}',
+    titleSize = '{titleSize}',
+    title = '{title}',
+    audioUrl = '{audioUrl}',
     tts = true,
     ttsLang = 'fr',
     showPrices = false, //comma separated values or false
@@ -20,20 +20,20 @@ let textSize = 35,
     highlightPrice = false,
     audioVolume = 1, // value between 0 and 1
     defaultImage = false, // url for default displayed image on reward
-    ignoredRedeem1 = '',
-    ignoredRedeem2 = '',
-    ignoredRedeem3 = '',
-    ignoredRedeem4 = '',
-    ignoredRedeem5 = '',
-    ignoredRedeem6 = '',
-    ignoredRedeem7 = '',
-    ignoredRedeem8 = '',
-    ignoredRedeem9 = '',
-    ignoredRedeem10 = '';
+    ignoredRedeem1 = '{ignoredRedeem1}',
+    ignoredRedeem2 = '{ignoredRedeem2}',
+    ignoredRedeem3 = '{ignoredRedeem3}',
+    ignoredRedeem4 = '{ignoredRedeem4}',
+    ignoredRedeem5 = '{ignoredRedeem5}',
+    ignoredRedeem6 = '{ignoredRedeem6}',
+    ignoredRedeem7 = '{ignoredRedeem7}',
+    ignoredRedeem8 = '{ignoredRedeem8}',
+    ignoredRedeem9 = '{ignoredRedeem9}',
+    ignoredRedeem10 = '{ignoredRedeem10}';
 
 let SETTINGS = {
     textSize: textSize + 'px',
-    textStyle: textStyle,
+    textStyle: 'color:' + textStyle,
     showTime: showTime,
     imageHeight: imageHeight + 'px',
     imageStyle: imageStyle,
