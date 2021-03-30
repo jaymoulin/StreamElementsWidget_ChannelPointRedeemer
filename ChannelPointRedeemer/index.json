@@ -1,0 +1,96 @@
+{
+  "title": {
+    "type": "text",
+    "label": "Main text for point redemption",
+    "value": "{user} spend {price} points for {reward}"
+  },
+  "titleSize": {
+    "type": "number",
+    "label": "Size used for the main text (in px)",
+    "value": 50
+  },
+  "titleColor": {
+    "type": "colorpicker",
+    "label": "Color used for the main text",
+    "value": "purple"
+  },
+  "titleStyle": {
+    "type": "text",
+    "label": "Main text font family",
+    "value": "fantasy"
+  },
+  "textSize": {
+    "type": "number",
+    "label": "Size used for the secondary text (in px)",
+    "value": 35
+  },
+  "textStyle": {
+    "type": "colorpicker",
+    "label": "Color used for the secondary text",
+    "value": 35
+  },
+  "showTime": {
+    "type": "number",
+    "label": "Duration time (in ms)",
+    "value": 7500
+  },
+  "imageHeight": {
+    "type": "number",
+    "label": "Image Height (in px)",
+    "value": 250
+  },
+  "audioUrl": {
+    "type": "sound-input",
+    "label": "Audio played on redemption"
+  },
+  "ignoredRedeemGroup0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Ignored Rewards"
+  },
+  "ignoredRedeemGroup1": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Ignored Rewards"
+  },
+  "ignoredRedeem1": {
+    "type": "text",
+    "label": "Ignored Redeem 1 - Id"
+  },
+  "ignoredRedeem2": {
+    "type": "text",
+    "label": "Ignored Redeem 2 - Id"
+  },
+  "ignoredRedeem3": {
+    "type": "text",
+    "label": "Ignored Redeem 3 - Id"
+  },
+  "ignoredRedeem4": {
+    "type": "text",
+    "label": "Ignored Redeem 4 - Id"
+  },
+  "ignoredRedeem5": {
+    "type": "text",
+    "label": "Ignored Redeem 5 - Id"
+  },
+  "ignoredRedeem6": {
+    "type": "text",
+    "label": "Ignored Redeem 6 - Id"
+  },
+  "ignoredRedeem7": {
+    "type": "text",
+    "label": "Ignored Redeem 7 - Id"
+  },
+  "ignoredRedeem8": {
+    "type": "text",
+    "label": "Ignored Redeem 8 - Id"
+  },
+  "ignoredRedeem9": {
+    "type": "text",
+    "label": "Ignored Redeem 9 - Id"
+  },
+  "ignoredRedeem10": {
+    "type": "text",
+    "label": "Ignored Redeem 10 - Id"
+  }
+}
